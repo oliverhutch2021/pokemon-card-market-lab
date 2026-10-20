@@ -1,0 +1,6 @@
+#!/bin/sh
+# check the full tree and history of every ref being pushed
+while read local_ref local_sha remote_ref remote_sha; do
+  [ "$local_sha" = "0000000000000000000000000000000000000000" ] && continue
+  python3 "$(git rev-parse --show-toplevel)/tools/guard.py" tree "$local_sha" || exit 1
+done

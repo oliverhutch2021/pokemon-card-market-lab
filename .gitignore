@@ -1,0 +1,26 @@
+# raw / licensed / private data never goes in this public repo
+data/raw/
+data/cache/
+data/private/
+*.parquet
+*.duckdb
+*.db
+*.sqlite
+*.gz
+*.zip
+*.7z
+# secrets
+.env
+.env.*
+*.key
+*.pem
+secrets*
+# python / editors
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+tools/denylist.sha256
