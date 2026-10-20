@@ -13,6 +13,8 @@ An analysis project on the English Pokémon TCG market (1999–2026), seen from 
 | PSA 10 price index | A hedonic £ index of the PSA 10 market. |
 | Backtest & risk flags | Do "cheap for its scarcity" picks catch up? Flags for suspicious sales and PSA cert checks. |
 
+**Status:** step 2 (card table) is built; see [docs/CARD_TABLE.md](docs/CARD_TABLE.md).
+
 See [docs/PLAN.md](docs/PLAN.md) for the method and [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md) for the data sources and their terms.
 
 ## What is not in this repo
