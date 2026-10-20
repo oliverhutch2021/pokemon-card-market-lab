@@ -30,7 +30,7 @@ Built by `python -m cardlab.build_table` and saved to the **private** data repo 
 - **EU price:** 85.7%. It's weakest for SM, XY and EX, and for WOTC 1st Editions, which Cardmarket sells as separate products not yet mapped.
 - **PSA pop:** 88.6% of main versions have a row. 96.6% of PokeInvest's English pop rows found a match, covering about 16.5M graded cards. Most cards without a pop row have simply never been graded.
 - **Known gap:** PokeInvest has no 1st Edition rows for Neo Genesis.
-- **EU prices need care.** Cardmarket's guide averages every language and condition, so for older eras it runs far below the US near-mint price. The median EUR/USD ratio is about 0.25–0.3 for DP, Platinum and HGSS, against 0.8–1.0 for modern sets. Cards of $5 or more whose EUR/USD ratio is outside 0.2–5× are flagged `eur_suspect = 1`. Module 4 (cross-market) will deal with this before any gap is reported.
+- **EU prices need care.** Cardmarket's guide averages every language and condition, so for older eras it runs far below the US near-mint price. The median EUR/USD ratio is about 0.25–0.3 for DP, Platinum and HGSS, against 0.8–1.0 for modern sets. Cards of $5 or more whose EUR/USD ratio is outside 0.2–5× are flagged `eur_suspect = 1`. EU columns are kept for reference only. The project uses English (TCGplayer) prices, and the EU columns feed no model.
 
 ## Checks
 

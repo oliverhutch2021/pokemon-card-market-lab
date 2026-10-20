@@ -1,19 +1,18 @@
 # Pokémon Card Market Lab
 
-An analysis project on the English Pokémon TCG market (1999–2026), seen from a UK buyer's side, with prices in £.
+An analysis project on the **English** Pokémon TCG market (1999–2026), seen from a UK buyer's side, with prices in £. Every price is for English cards. Non-English and mixed-language prices aren't used.
 
 | Module | Question |
 |---|---|
 | Card value model | What should a card be worth, given its rarity, set, age, Pokémon popularity, artist and supply? It is tested on 2026 sets the model never saw. Raw near-mint and PSA 10 are modelled separately. |
 | Price lifecycle | How do prices typically fall after release and recover once a set is out of print? What do reprints do? |
 | Grading calculator | Is a card worth sending to PSA? It uses the expected value across the whole grade distribution, minus fees, shipping, VAT and the cost of waiting. |
-| Cross-market gaps | US (TCGplayer) vs EU (Cardmarket) prices as a landed cost in £, and how much FX markups change the answer. |
 | Sealed returns | Returns, volatility and worst drawdowns of sealed products, compared with UK inflation. |
 | Supply & pop growth | How fast new PSA 10s appear, and whether a low pop is really scarce. |
 | PSA 10 price index | A hedonic £ index of the PSA 10 market. |
 | Backtest & risk flags | Do "cheap for its scarcity" picks catch up? Flags for suspicious sales and PSA cert checks. |
 
-**Status:** step 2 (card table) is built; see [docs/CARD_TABLE.md](docs/CARD_TABLE.md).
+**Status:** the card table ([docs/CARD_TABLE.md](docs/CARD_TABLE.md)) and the raw value model ([docs/RAW_MODEL.md](docs/RAW_MODEL.md)) are built. On unseen 2026 sets the model's median error is 23% overall and 41–50% for cards over $10.
 
 See [docs/PLAN.md](docs/PLAN.md) for the method and [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md) for the data sources and their terms.
 

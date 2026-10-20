@@ -13,10 +13,11 @@ RARITY_TIER = {  # rough pull-rate order within any era; raw rarity is kept as w
     "Common": 0, "Uncommon": 1, "Rare": 2, "Holo Rare": 3, "Rare Holo": 3,
     "Double rare": 4, "Holo Rare V": 4, "Holo Rare VMAX": 4, "Holo Rare VSTAR": 4, "Rare Holo LV.X": 4,
     "Rare PRIME": 4, "LEGEND": 4, "ACE SPEC Rare": 4, "Radiant Rare": 4, "Amazing Rare": 4,
-    "Black White Rare": 4, "Ultra Rare": 5, "Illustration rare": 5, "Shiny rare": 5, "Shiny rare V": 5,
+    "Ultra Rare": 5, "Illustration rare": 5, "Shiny rare": 5, "Shiny rare V": 5,
     "Shiny rare VMAX": 5, "Full Art Trainer": 5, "Classic Collection": 5, "Pikachu Rare": 5,
     "Futuristic Rare": 5, "Secret Rare": 6, "Special illustration rare": 6, "Shiny Ultra Rare": 6,
-    "Hyper rare": 7, "Mega Hyper Rare": 7, "Crown": 7, "Promo": None, "None": None,
+    "Hyper rare": 7, "Mega Hyper Rare": 7, "Crown": 7,
+    "Black White Rare": 7,  # top rarity of Black Bolt / White Flare (above SIR); fixed after 2025 validation review "Promo": None, "None": None,
 }
 MECHANIC = [  # (flag, regex on card name)
     ("is_ex_old", r"\bex\b(?!.*\bex\b.*)"), ("is_gx", r"\bGX\b"), ("is_v", r"\bV$"), ("is_vmax", r"VMAX"),
